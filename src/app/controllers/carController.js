@@ -1,7 +1,7 @@
 import Car from '../models/Car';
 
 class CarController {
-//Find all car
+//Find all cars
   async index1(req, res) {
     try {
       const cars = await Car.find()
@@ -13,6 +13,7 @@ class CarController {
     }
   }
 
+  //Find all avaliable cars
   async index2(req, res) {
     try {
       const cars = await Car.find({

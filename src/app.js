@@ -15,6 +15,7 @@ import connectDB from './app/config/database';
 
 //@Importing routes
 import cars from './routes/car.routes';
+import rentals from './routes/rental.routes';
 
 connectDB();
 
@@ -50,7 +51,7 @@ class App {
   routes() {
     //@Routes
 
-    this.server.use(cars);
+    this.server.use(cars, rentals);
     this.server.use(Sentry.Handlers.errorHandler());
   }
 
