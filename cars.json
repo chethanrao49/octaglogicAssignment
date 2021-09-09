@@ -1,0 +1,50 @@
+[
+  {
+    "carType": "SUV",
+    "avaliable": true
+  },
+  {
+    "carType": "SUV",
+    "avaliable": true
+  },
+  {
+    "carType": "Seadan",
+    "avaliable": true
+  },
+  {
+    "carType": "Hatchback",
+    "avaliable": false
+  },
+  {
+    "carType": "Hatchback",
+    "avaliable": true
+  },
+  {
+    "carType": "Seadan",
+    "avaliable": true
+  },
+  {
+    "carType": "Seadan",
+    "avaliable": false
+  },
+  {
+    "carType": "SUV",
+    "avaliable": true
+  },
+  {
+    "carType": "Seadan",
+    "avaliable": true
+  },
+  {
+    "carType": "Hatchback",
+    "avaliable": false
+  },
+  {
+    "carType": "Hatchback",
+    "avaliable": true
+  },
+  {
+    "carType": "Seadan",
+    "avaliable": true
+  }
+]
