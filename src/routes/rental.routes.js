@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 //@Importing Car Controller
-import RentalController from '../app/controllers/RentalController';
+import RentalController from '../app/controllers/rentalController';
 const rental = new Router();
 
 //User public route//
